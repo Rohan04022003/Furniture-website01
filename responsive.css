@@ -106,7 +106,7 @@
     }
 
     #featured {
-        padding: 41px 25px 0px 25px;
+        padding: 41px 25px 25px 25px;
     }
 
     .featured-right-col h1 {
@@ -120,7 +120,7 @@
     }
 
     #featured2 {
-        padding: 29px 25px 0px 29px;
+    padding: 35px 25px 40px 29px;
     }
 
     .featured2-left-col h1, .offer-left-col h1 {
@@ -179,7 +179,7 @@
     }
 
     .footer-row{
-        justify-content: left;
+        justify-content: center;
     }
 
 }
