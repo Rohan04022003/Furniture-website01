@@ -1,0 +1,185 @@
+@media(max-width:750px){
+
+    .menu{
+        display: none;
+    }
+
+    .right{
+        display: none;
+    }
+
+    .left {
+        max-width: 1000px;
+        padding: 4rem 0;
+    }
+
+    #welcome{
+        width: 20%;
+        margin-bottom: 10%;
+    }
+
+    .featured-left-col{
+        width: 50%;
+    }
+
+    .featured2-right-col{
+        width: 75%;
+        margin-top: 10%;
+    }
+
+    .offer-row{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .offer-right-col{
+        width: 60%;
+        margin-top: 10%;
+    }
+
+    .blog-box {
+        flex-basis: 32%;
+    }
+}
+
+@media(max-width:420px){
+    .circle {
+        width: 350px;
+        height: 350px;
+        top: 16%;
+        right: 7%;
+    }
+
+    .left h1 {
+        font-size: 2rem;
+    }
+
+    .p-header {
+        font-size: 0.8rem;
+    }
+
+    .icon img {
+        width: 26px;
+    }
+    .icon a{
+        margin-left: 5px;
+    }
+
+    .logo{
+        font-size: 24px;
+    }
+
+    .btn input {
+        padding: 5px;
+        width: 65%;
+        letter-spacing: 0.2px;
+    }
+
+    .btn {
+        margin-top: 30px;
+        display: flex;
+    }
+
+    .btn button {
+        font-size: 10px;
+        padding: 4px;
+        letter-spacing: normal;
+    }
+    .counter {
+        margin-top: 25px;
+        margin-left: -24px;
+        margin-right: -3px;
+    }
+
+    .counter div h2{
+        font-size: 16px;
+    }
+
+    .counter div p{
+        font-size: 5px;
+    }
+
+    #welcome{
+        width: 18%;
+        margin-bottom: 70%;
+    }
+
+    #featured {
+        padding: 41px 25px 0px 25px;
+    }
+
+    .featured-right-col h1 {
+        font-size: 28px;
+        letter-spacing: 0.2px;
+    }
+
+    .c-btn{
+        padding: 7px;
+        letter-spacing: 0.5px;
+    }
+
+    #featured2 {
+        padding: 29px 25px 0px 29px;
+    }
+
+    .featured2-left-col h1, .offer-left-col h1 {
+        font-size: 28px;
+        letter-spacing: 0.2px;
+    }
+
+    #selling {
+        padding: 50px 25px 50px 25px;
+    }
+
+    #selling h1 {
+        font-size: 28px;
+    }
+
+    .selling-box{
+        flex-basis: 100%;
+    }
+
+    #offer {
+        padding: 20px 25px;
+    }
+
+    .offer-right-col img {
+        width: 100%;
+        margin-top: 17px;
+    }
+
+    #blog h1 {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+
+    .blog-box {
+        flex-basis: 100%;
+        margin-bottom: 10px;
+    }
+
+    #blog {
+        padding: 50px 25px;
+    }
+
+    #footer {
+        padding: 30px 35px;
+    }
+
+    .subscribe input {
+        width: 67%;
+        padding: 7px;
+        letter-spacing: 1px;
+    }
+
+    .subscribe button {
+        padding: 7px;
+        letter-spacing: 0.2px;
+    }
+
+    .footer-row{
+        justify-content: left;
+    }
+
+}
